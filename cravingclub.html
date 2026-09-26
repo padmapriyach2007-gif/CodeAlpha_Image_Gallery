@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PADMA PRIYA'S IMAGE GALLERY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_y9MiVjUY9aAyWLDrhh-B7Xgq2i_LnG6iW31GkXcE843YVhYyFAHO7SSx&s=10"
+         alt="Craving Club"
+         width="100"
+         height="100">
+    <div>
+         <h1>The Craving Club</h1>
+    <h2>Good food , Great moods</h2>
+</div>
+</div>
+    <br><br>
+    <div class="filter_container">
+        <button class="button_css active" button_filter="all"> ALL CUISINES </button>
+        <button class="button_css" button_filter="indian">INDIAN </button>
+        <button class="button_css" button_filter="italian"> ITALIAN </button>
+        <button class="button_css" button_filter="chinese">CHINESE</button>
+        <button class="button_css" button_filter="mexican"> MEXICAN</button>
+        <button class="button_css" button_filter="japanese">JAPANESE</button>
+        <button class="button_css" button_filter="thai">THAI</button>
+    </div>
+<div class="gallery_grid">
+        <div class="gallery_item" data-category="indian">
+            <div class="overlay">
+                <span>
+                    <h2>INDIAN FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://platform.eater.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20059022/shutterstock_1435374326.jpg?quality=90&strip=all&crop=0%2C0.054288816503799%2C100%2C99.891422366992&w=2400"
+                             alt="INDIAN FOOD">
+                        <img src="https://www.rewardsnetwork.com/wp-content/uploads/2016/12/IndianFood_Main.jpg"
+                             alt="INDIAN FOOD">
+                        <img src="https://dt4l9bx31tioh.cloudfront.net/eazymedia/eazytrendz/5109/trend20251210114034.jpg"
+                             alt="INDIAN FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6OkplfyH5QzhhB0FLccUEaBF1ot0PW4gWBkkHtUpOGDdVHAb6k60kqD4&s=10"
+                             alt="INDIAN FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjYrEgLYYswWpZBl72a5OoagkKthTlN6mI6yBdyd1-Q&s=10"
+                             alt="INDIAN FOOD">
+                        <img src="https://www.thespruceeats.com/thmb/hqqNrNhIpqPqV2u0T0K-IUzUsEo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-cuisine-of-north-india-1957883-d32a933f506d43f59ac38a8eb956884a.jpg"
+                             alt="INDIAN FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+        <div class="gallery_grid">
+        <div class="gallery_item" data-category="italian">
+            <div class="overlay">
+                <span>
+                    <h2>ITALIAN FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqZZaJmjOqnhkfz8SdKooyAdAlolDAfIrUoS0ofuj5BsViJJb2-96DzRrx&s=10"
+                             alt="ITALIAN FOOD">
+                        <img src="https://c.ndtvimg.com/2021-04/umk8i7ko_pasta_625x300_01_April_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886"
+                             alt="ITALIAN FOOD">
+                        <img src="https://static.wixstatic.com/media/2cbff6_ac782b0eaff94ec0881f0299fdb76ab6~mv2.jpg/v1/fill/w_528,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2cbff6_ac782b0eaff94ec0881f0299fdb76ab6~mv2.jpg"
+                             alt="ITALIAN FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3bSOB4FjswpuIlru3-8qOARITzS0czfbz9zrApQhG40xmgTh3AFxE2Y&s=10"
+                             alt="ITALIAN FOOD">
+                        <img src="https://static.independent.co.uk/2024/04/25/16/iStock-1414575281.jpg"
+                             alt="ITALIAN FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvay55cnCNUvNuP_GYZI-1KSSfCI9PwGOTO3WQ4D6L1-ehfTDRD4gyy7u&s=10"
+                             alt="ITALIAN FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+         <div class="gallery_grid">
+        <div class="gallery_item" data-category="chinese">
+            <div class="overlay">
+                <span>
+                    <h2>CHINESE FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg"
+                             alt="CHINESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvwOEMDtPrm0A9Jr20FwiBYTJCXK2PhmiDCVF2U98jY1XWYEUnEm4aLoo&s=10"
+                             alt="CHINESE FOOD">
+                        <img src="https://redhousespice.com/wp-content/uploads/2025/01/homemade-chinese-new-year-dinner-scaled.jpg"
+                             alt="CHINESE FOOD">
+                        <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/02/general-tso-chicken.jpg?quality=82&strip=1"
+                             alt="CHINESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Qz_ZrXv4HWfLyoyrMKfKmiGun5YlQmRrYZP-FftzR7MIWNvjlMRZaDk&s=10"
+                             alt="CHINESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyxK1kWxH_-b5T_YQnf9rJUIA01z9dgjpzWCQU2y_tE_Njwuei27TR9Ww&s=10"
+                             alt="CHINESE FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+         <div class="gallery_grid">
+        <div class="gallery_item" data-category="mexican">
+            <div class="overlay">
+                <span>
+                    <h2>MEXICAN FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/gorditas-2-1676665008.jpg?crop=0.671xw:1.00xh;0.158xw,0"
+                             alt="MEXICAN FOOD">
+                        <img src="https://www.recipetineats.com/tachyon/2025/09/Birria-tacos_4.jpg?resize=747%2C747"
+                             alt="MEXICAN FOOD">
+                        <img src="https://i.guim.co.uk/img/media/fdf311d6e9b2c590d8ccc6960dc274626a8810d7/277_2177_3803_3039/master/3803.jpg?width=465&dpr=1&s=none&crop=5%3A4"
+                             alt="MEXICAN FOOD">
+                        <img src="https://castanedasrestaurant.com/pluto-images/funnel/images/203bd35e-93bc-4044-97f7-cec8c4331228?w=1920&quality=60&fit=cover"
+                             alt="MEXICAN FOOD">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/delish-230307-sopes-328-rv-lead-6418de26e5178.jpg?crop=0.624xw:0.936xh;0.226xw,0.00616xh"
+                             alt="MEXICAN FOOD">
+                        <img src="https://www.seriouseats.com/thmb/nCQRXwuhVxp-cjY8Xh2TshzkAV8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20251009-SEA-EnchiladasNegras-LorenaMasso-13-012468a56005451ea191bc3f145c9bda.jpg"
+                             alt="MEXICAN FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+         <div class="gallery_grid">
+        <div class="gallery_item" data-category="japanese">
+            <div class="overlay">
+                <span>
+                    <h2>JAPANESE FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://jennifereremeeva.com/wp-content/uploads/2025/04/Kaiseki-ryori-Japanese-traditional-cuisine_shutterstock_1687493113_mnimage-scaled.jpg"
+                             alt="JAPANESE FOOD">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2014/01/Top-10-foods-to-try-in-Japan-9763a03.jpg"
+                             alt="JAPANESE FOOD">
+                        <img src="https://i0.wp.com/theawkwardtraveller.com/wp-content/uploads/2024/12/Generic-Image-Size-2024-12-07T230103.871.png?resize=500%2C375&ssl=1"
+                             alt="JAPANESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZRQrDCCMxVRg4BFwthpuZIUOj5C-GFoAlAxxRFlBJDmeJFhBM8lEKd78&s=10"
+                             alt="JAPANESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs3X-7-Q5pH-3Ww3Ru_BVYH6-6N2uyt7dpvO4I--IqxqNb7hOWPRbAoao&s=10"
+                             alt="JAPANESE FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbCInvXL8vIXODgJQGSbQBMbboQsZ-rGxG9kp1tegV7knQa9MD7n8fSa-W&s=10"
+                             alt="JAPANESE FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+        <div class="gallery_grid">
+        <div class="gallery_item" data-category="thai">
+            <div class="overlay">
+                <span>
+                    <h2>THAI FOOD</h2>
+                </span>
+            </div>
+            <div class="food-carousel">
+                <button class="arrow left" onclick="moveSlide(-1)">
+                    &lt;
+                </button>
+                <div class="food-window">
+                    <div class="food-images" id="foodImages">
+                        <img src="https://www.clubmahindra.com/blog/media/section_images/desktop4-669c4244fea77cd.webp"
+                             alt="THAI FOOD">
+                        <img src="https://www.recipetineats.com/tachyon/2020/01/Chicken-Pad-Thai_9-SQ.jpg"
+                             alt="THAI FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jOhJnkHp_8yq19qBWEVzL26KWOiQ399ldhUtl2vXaxTfmiuCEajXjgrk&s=10"
+                             alt="THAI FOOD">
+                        <img src="https://cdn.shopify.com/s/files/1/0552/6270/7887/files/Thai-curry.jpg?v=1618997020"
+                             alt="THAI FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEbnJz4bh2-Ns-tJdxZO4f7lMnNI-9nXObQjmehfTOgXkEYf5ufhrwAI1&s=10"
+                             alt="THAI FOOD">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBx1vAAtbnjTjvqRhle1NkYLUwZFL5Nc8cXzuEWZ5K6dD5P2P5nrAgyu81&s=10"
+                             alt="THAI FOOD">
+                    </div>
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">
+                    &gt;
+                </button>
+            </div>
+        </div>
+         <section id="contact">
+        <div class="social_links">
+            <h3>The Craving Club</h3>
+            <p>Good food , Great moods</p>
+        <div class="contact_us">
+            <h3>Contact Us</h3>
+            <div class="ph_no">
+                <i class="fa-solid fa-phone"></i>
+                <p><h2>PHONE NO:</h2> 9876543210</p>
+            </div>
+            <div class="mail">
+                <i class="fa-solid fa-envelope"></i>
+                <p><h2>EMAIL: </h2>cravingclub@gmail.com</p>
+            </div>
+            <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p><h2>LOCATION:</h2> Tenali, Andhra Pradesh, India</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>@2026 The Craving Club. All rights reserved.</p>
+        <p>Privacy Policy | Terms & Conditions</p>
+    </footer>
+</body>
+</html>
